@@ -1,5 +1,35 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-k-sone-critbitgo (1.4.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Eric Dorland ]
+  * Add Multi-Arch: foreign
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+
+  [ Eric Dorland ]
+  * Standards-Version to 4.5.1.0
+
+ -- Eric Dorland <eric@debian.org>  Fri, 15 Jan 2021 23:56:26 -0500
+
+golang-github-k-sone-critbitgo (1.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add vcs-upstream-tag to gbp.conf
+  * Switch to debhelper-compat = 12
+  * Standards-Version to 4.4.1.1
+
+ -- Eric Dorland <eric@debian.org>  Sat, 02 Nov 2019 19:44:37 -0400
+
+golang-github-k-sone-critbitgo (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version 1.2.0
+  * Standards-Version to 4.2.1.4
+  * Add Rules-Requires-Root: no
+
+ -- Eric Dorland <eric@debian.org>  Sun, 04 Nov 2018 16:31:28 -0500
+
+golang-github-k-sone-critbitgo (1.1.0+git20170112.327359a-1) unstable; urgency=medium
+
+  * Initial release (Closes: #895753)
+
+ -- Eric Dorland <eric@debian.org>  Sun, 15 Apr 2018 12:14:22 -0400
